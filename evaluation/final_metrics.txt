@@ -1,0 +1,27 @@
+HIVER SUPPORT AGENT — FINAL METRICS
+
+Golden Set size: 200
+Intent accuracy: 0.6300
+Intent macro F1: 0.6165
+Intent weighted F1: 0.6320
+Escalation rate: 0.0250
+Mean retrieval similarity: 0.6090
+Median retrieval similarity: 0.4590
+
+Classification report:
+                          precision    recall  f1-score   support
+
+    apple_account_icloud      0.533     0.800     0.640        10
+          apple_services      0.682     0.714     0.698        21
+      apps_and_app_store      0.615     0.615     0.615        13
+           battery_issue      0.952     0.667     0.784        30
+      connectivity_issue      0.500     0.385     0.435        13
+device_features_settings      0.783     0.514     0.621        35
+   device_hardware_issue      0.800     0.500     0.615         8
+         general_support      0.585     0.800     0.676        30
+        ios_update_issue      0.483     0.538     0.509        26
+    payments_and_billing      0.476     0.714     0.571        14
+
+                accuracy                          0.630       200
+               macro avg      0.641     0.625     0.616       200
+            weighted avg      0.666     0.630     0.632       200
