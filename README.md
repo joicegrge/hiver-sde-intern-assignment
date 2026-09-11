@@ -9,7 +9,40 @@ The system takes an incoming customer message and:
 3. Drafts a historically grounded response.
 4. Decides whether the request should be auto-handled or escalated, with a reason.
 
+## 🚀 How to Run the Project
+
+### 1. Install dependencies
+
+`pip install -r requirements.txt`
+
+### 2. Start the interactive demo
+
+`streamlit run src/app.py`
+
+### 3. Open the app
+
+After running the command, open:
+
+`http://localhost:8501`
+
+### 4. Try the agent
+
+You can either select a quick test case or type your own customer support message.
+
+The app will show:
+
+- Intent Classification
+- Confidence
+- Suggested Response
+- Auto-handle / Escalate decision
+- Escalation reason
+- Historical supporting examples
+
 ---
+
+---
+
+
 
 ## 1. Problem Framing
 
